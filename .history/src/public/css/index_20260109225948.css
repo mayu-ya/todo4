@@ -1,0 +1,58 @@
+.todo-message_header {
+    background: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.todo-error-message_header {
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.content {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.create-form {
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.create-form_button-submit {
+    margin: 20px 25px;
+    padding-left: 30px;
+    background: #000;
+    color: #fff;
+}
+
+.table {
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: #000;
+}
+
+.table-update_input {
+    outline: none;
+    border: none;
+}
+
+.table-update_button-submit {
+    border: none;
+    background: #00f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table-delete_button-submit {
+    border: none;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}

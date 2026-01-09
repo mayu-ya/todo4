@@ -1,0 +1,26 @@
+.todo-message_header {
+    background: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.todo-error-message_header {
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.create-form_button-submit {
+    background: #000;
+    color: #fff;
+}
+
+.table-update_button-submit {
+    background: #00f;
+    color: #fff;
+}
+
+.table-delete_button-submit {
+    background: #ff0000;
+    color: #fff;
+}

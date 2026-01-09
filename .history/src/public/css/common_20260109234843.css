@@ -1,0 +1,16 @@
+.header {
+    max-width: 1230px;
+
+.header-inner {
+    width: 100%;
+}
+
+.header-logo {
+    display: block;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.header {
+}
+
+.header-inner {
+    max-width: 1230px;
+}
+
+.header-logo {
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
