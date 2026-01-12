@@ -1,0 +1,78 @@
+.todo-message_header {
+    height: 40px;
+    padding: 10px 20px;
+    background: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.todo-error-message_header {
+    height: 40px;
+    padding: 10px 20px;
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.content {
+    max-width: 1536px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.create-form {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 30px;
+    align-items: center;
+}
+
+.create-form-todo_input {
+    width: 250%;
+    height: 45px;
+    outline: none;
+}
+
+.create-form_button-submit {
+    margin: 0 50px;
+    width: 80px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+}
+
+.table {
+    margin: 0 auto;
+    padding: 30px 30px;
+    align-items: center;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.table-update_input {
+    outline: none;
+    border: none;
+}
+
+.table-update_button-submit {
+    border: none;
+    border-radius: 3px;
+    background: #00f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table-delete_button-submit {
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
