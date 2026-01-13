@@ -1,0 +1,150 @@
+.todo-message_header {
+    padding: 10px 30px;
+    background: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.todo-error-message_header {
+    padding: 10px 0;
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.content {
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.section__title {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.create-form, .search-form {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.create-form-todo, .search-form_item {
+    display: flex;
+    width: 70%;
+}
+
+.create-form-todo_input, .search-form_item-input {
+    margin-right: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+
+.create-form_item-select, .search-form_item-select {
+    padding: 10px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.create-form_button, .search-form_button {
+    width: 20%;
+}
+
+.create-form_button-submit, .search-form_button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table {
+    margin: 30px auto;
+    width: 70%;
+    text-align: left;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.table-title {
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.todo-table__header-span {
+    margin-right: 40%;
+}
+
+.table-update {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-todo {
+    width: 40%;
+    line-height: 50%;
+}
+
+.table-update_input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.update-form__item-p {
+    text-align: left;
+    font-size: 13px;
+}
+
+.table_item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
+
+.table-update_button {
+    width: 50px;
+}
+
+.table-update_button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #00f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table-delete_button {
+    width: 50px;
+    padding: 12px 0;
+}
+
+.table-delete_button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}

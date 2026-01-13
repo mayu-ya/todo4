@@ -1,0 +1,126 @@
+.category-success_message {
+    padding: 10px 30px;
+    background: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.category-error_message {
+    padding: 10px 0;
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.content {
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+
+
+.category-form {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.category-form_item {
+    width: 70%;
+}
+
+.category-form_item-input {
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+
+.category-form_button {
+    width: 20%;
+}
+
+.category-form_button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table {
+    margin: 30px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.table-header-item {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-update {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-update_item {
+    width: 40%;
+    line-height: 50%
+}
+
+.table-update_item-input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.table_item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
+
+.table-update_button {
+    width: 50px;
+}
+
+.table-update_button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #00f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table-delete_button {
+    width: 50px;
+    padding: 12px 0;
+}
+
+.table-delete_button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
